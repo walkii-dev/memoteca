@@ -6,6 +6,7 @@ import { App } from './app';
 import { Cabecalho } from './componentes/cabecalho/cabecalho';
 import { Rodape } from './componentes/rodape/rodape';
 import { CriarPensamento } from './componentes/pensamentos/criar-pensamento/criar-pensamento';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CriarPensamento } from './componentes/pensamentos/criar-pensamento/cria
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners(),

@@ -8,4 +8,19 @@ import { Component } from '@angular/core';
 })
 export class CriarPensamento {
 
+  pensamento = {
+    id:"1",
+    conteudo:"Aprendendo a gozar",
+    autoria:"eu mermo",
+    modelo:"modelo2"
+  }
+
+  CriarPensamento(){
+    alert("Novo pensamento");
+  }
+
+  CancelarPensamento(){
+    alert("pensamento cancelado.");
+  }
+
 }
